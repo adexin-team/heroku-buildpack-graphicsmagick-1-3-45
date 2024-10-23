@@ -36,7 +36,7 @@ then
   mkdir -p $GM_SOURCE_DIR
   mkdir -p $GM_CACHE_DIR
 
-  PACKAGE="https://downloads.sourceforge.net/project/graphicsmagick/graphicsmagick/$GRAPHICS_MAGICK_VERSION/GraphicsMagick-$GRAPHICS_MAGICK_VERSION.tar.gz"
+  PACKAGE="https://sourceforge.net/projects/graphicsmagick/files/graphicsmagick/$GRAPHICS_MAGICK_VERSION/GraphicsMagick-$GRAPHICS_MAGICK_VERSION.tar.gx"
   curl $PACKAGE -L -o - | tar xzf - -C $GM_SOURCE_DIR 2>&1 | indent
   cd $GM_SOURCE_DIR/GraphicsMagick-$GRAPHICS_MAGICK_VERSION
 
